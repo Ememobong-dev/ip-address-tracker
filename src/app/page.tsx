@@ -68,7 +68,7 @@ export default function Home() {
       {locationData && (
         <div className="flex justify-center md:mt-0 mt-40 border relative z-50 shadow-xl items-center">
           <div className="absolute">
-            <div className="p-10 border-[yellow] bg-white  z-50 shadow-xl flex flex-wrap justify-center items-center gap-8 md:divide-x-2">
+            <div className="p-10 border-[yellow] bg-white  z-50 shadow-xl flex flex-wrap justify-center items-center gap-3 md:gap-8 md:divide-x-2">
               <div className="md:px-4">
                 <ResultsTitle
                   title={"IP Address"}
