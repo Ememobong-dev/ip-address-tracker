@@ -50,7 +50,7 @@ export default function Home() {
             <input
               onChange={(e) => setIpAddress(e.target.value)}
               value={ipAddress}
-              className=" rounded-l-xl w-[40%] bg-white flex  justify-center items-center flex-col white px-8 outline-none border-0 py-3 "
+              className=" rounded-l-xl md:w-[40%] w-[80%] bg-white flex  justify-center items-center flex-col white px-8 outline-none border-0 py-3 "
             />
             <button
               onClick={handleIpSearch}
