@@ -13,7 +13,7 @@ export default function Home() {
   const [locationData, setLocationData] = useState({});
 
   const fetchIpData = async (ip = "") => {
-    const apiKey = "at_aPdeSkrIP145Eab6bKLTKUVt7lgKj"; // Replace with your IPify API key
+    const apiKey = process.env.API_KEY; 
     const url = ip
       ? `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${ip}`
       : `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}`;
